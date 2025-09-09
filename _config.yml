@@ -1,0 +1,34 @@
+title: "Ramanesh Palpandiraj"
+tagline: "Cloud, DevOps, notes & snippets"
+url: "https://ramganesh777.github.io"
+author:
+  name: "Ramanesh Palpandiraj"
+  email: "ramg.devops@gmail.com"
+
+theme: minima
+minima:
+  skin: dark              # change to "auto" or "classic" if you prefer
+  social_links:
+    - { platform: github,  user_url: "https://github.com/ramganesh777" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/<your-handle>" }
+
+# Show pages in top navigation
+header_pages:
+  - index.md
+  - docs/index.md
+  - blog.md
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# A simple docs collection
+collections:
+  docs:
+    output: true
+    permalink: /docs/:name/
+
+# Nice permalinks for posts
+permalink: /blog/:year/:month/:day/:title/
