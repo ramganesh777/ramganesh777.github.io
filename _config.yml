@@ -16,6 +16,7 @@ minima:
 header_pages:
   - index.md
   - docs/index.md
+  - nithin/python/README.md
   - blog.md
   - about.md
 
